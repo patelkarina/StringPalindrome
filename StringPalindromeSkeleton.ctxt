@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StringPalindromeSkeleton()
+comment0.text=\n\ Creates\ a\ StringPalindrome\ object.\n
+comment1.params=
+comment1.target=java.lang.String\ getUserInput()
+comment1.text=\n\ Asks\ user\ for\ input,\ reads\ it,\ and\ returns\ the\ input.\n\ \n\ @return\ \ a\ line\ of\ user\ input\n
+comment2.params=str
+comment2.target=java.lang.String\ stripPunctuation(java.lang.String)
+comment2.text=\n\ Takes\ a\ string\ of\ characters\ and\ returns\ only\ the\ characters\ \n\ from\ the\ alphabet\ as\ well\ as\ numbers.\n\ \n\ @param\ \ str\ \ non-null\ string\ of\ charaters\n\ @return\ the\ alphanumberic\ characters\ from\ the\ parameter\ str\n
+comment3.params=str
+comment3.target=java.lang.String\ reverseString(java.lang.String)
+comment3.text=\n\ Reverses\ the\ characters\ in\ a\ str.\ \ \n\ For\ example,\ if\ str\ is\ equal\ to\ "cat",\ then\ return\ \ "tac".\n\n\ @param\ \ str\ \ non-null\ string\ of\ character\ \ \ \ \ \ \ \ \ \n\ @return\ a\ string\ in\ which\ the\ characters\ are\ reversed\n
+comment4.params=str
+comment4.target=boolean\ isPalindrome(java.lang.String)
+comment4.text=\n\ Determines\ if\ a\ series\ of\ letters\ makes\ a\ palindrome.\n\ \n\ @param\ \ str\ \ \ non-null\ string\ in\ which\ all\ punctuation\ and\ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ spaces\ have\ been\ removed\ before\ this\ method\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ is\ called.\ \ \n\ @return\ true\ \ if\ phrase\ is\ a\ palindrome,\ false\ otherwise.\n
+comment5.params=str
+comment5.target=void\ determineIfPalindrome(java.lang.String)
+comment5.text=\n\ Checks\ whether\ a\ non-null\ String\ object\ is\ a\ palindrome\ and\ \n\ outputs\ the\ answer.\ \n\ \n\ @param\ str\ \ \ non-null\ string\ of\ characters\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ Create\ a\ StringPalindrome\ object\ then\ it\ asks\ the\ user\ for\n\ a\ string\ of\ characters\ and\ replies\ whether\ the\ input\ is\ a\n\ palindrome.\ \ This\ interaction\ with\ the\ user\ continues\ until\n\ the\ user\ types\ in\ the\ word\ quit.\n\ \n\ @param\ args\ \ arguments\ from\ the\ command\ line\n
+numComments=7
